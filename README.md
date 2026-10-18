@@ -93,7 +93,7 @@
 | **Агенты стали стандартом.** Автодополнение отходит на второй план, главный режим теперь «опиши задачу, агент сделает PR» | Учись писать задачи и правила (`AGENTS.md`, `CLAUDE.md`), а не только код |
 | **Windsurf стал Devin Desktop** (Cognition) | Пользователи Windsurf переезжают в экосистему Devin |
 | **Roo Code закрыт** (май 2026), репозиторий в архиве | Альтернативы: [Cline](https://github.com/cline/cline), [Kilo Code](https://github.com/Kilo-Org/kilocode) и форки |
-| **Gemini CLI для большинства заменил Antigravity CLI** (`agy`) | Gemini CLI остаётся для API и Code Assist |
+| **Antigravity CLI** (`agy`) **заменил Gemini CLI для большинства пользователей** | Gemini CLI остаётся для платного API и Code Assist |
 | **Goose передан в Linux Foundation** (AAIF) | Проект стал вендор-нейтральным |
 | **MCP стал общим стандартом** для подключения инструментов | Один MCP-сервер работает в Claude Code, Cursor, Copilot, Codex и других |
 | **Параллельные агенты** в отдельных git worktree | Появился целый класс оркестраторов: Conductor, Vibe Kanban, Superset и др. |
@@ -220,7 +220,7 @@ flowchart LR
 | [aichat](https://github.com/sigoden/aichat) | Чат, RAG, агенты и shell-ассистент в одном бинарнике | 🟢 🆓 🏠 🔑 |
 | [ShellGPT](https://github.com/TheR1D/shell_gpt) | Генерация и объяснение shell-команд | 🟢 🆓 🏠 🔑 |
 | [Fabric](https://github.com/danielmiessler/Fabric) | Набор готовых промптов-«паттернов» для конвейеров в терминале | 🟢 🆓 🏠 🔑 |
-| [mods](https://github.com/charmbracelet/mods) | ИИ в Unix-пайпах: `cat log | mods "найди ошибку"` | 🟢 🆓 🏠 🔑 |
+| [mods](https://github.com/charmbracelet/mods) | ИИ в Unix-пайпах: `cat log \| mods "найди ошибку"` | 🟢 🆓 🏠 🔑 |
 | [Repomix](https://github.com/yamadashy/repomix) | Упаковывает репозиторий в один файл для LLM | ⭐ 🟢 🆓 🔌 |
 | [Gitingest](https://github.com/coderamp-labs/gitingest) | Превращает репозиторий в текстовый дайджест (замени `hub` на `ingest` в URL) | 🟢 🆓 |
 | [code2prompt](https://github.com/mufeedvh/code2prompt) | Генерирует промпт из кодовой базы по шаблону | 🟢 🆓 |
